@@ -1,0 +1,44 @@
+{
+  "name": "checker-backend",
+  "version": "0.0.1",
+  "description": "---",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ise_col@bitbucket.org/MencoEngineeringDev/checker-backend.git"
+  },
+  "author": "MENCO Engineering",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/MencoEngineeringDev/checker-backend#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.1.2",
+    "@sendgrid/mail": "^7.2.1",
+    "body-parser": "^1.19.0",
+    "chromedriver": "^83.0.1",
+    "connect-redis": "^5.0.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "parsehub": "^0.1.1",
+    "redis": "^3.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "request": "^2.88.2",
+    "tape": "^5.0.1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
